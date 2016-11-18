@@ -1,0 +1,58 @@
+body {
+  background-color: dodgerblue;
+  min-width: 1000px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  height: 35px;
+  margin-bottom: 40px;
+  margin-top: 40px
+}
+.signup {
+  background-color: white;
+  width: 360px;
+  padding: 40px;
+}
+.signup label, .signup input, .signup a, .signup p, .signup button {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input, button {
+  width: 303px;
+  padding: 15px;
+  border: 2px solid lightgray;
+  border-radius: 3px;
+}
+ a, p {
+  text-align: center;
+ }
+.signup .title, .signup a {
+  color: gray;
+}
+.signup .title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+button {
+  background-color: limegreen;
+  border-color: limegreen;
+  color: white;
+  font-weight: bold;
+}
+button:hover{
+    background: darkgreen;
+    border-color: darkgreen;
+}
+.login, .login a {
+  color: white;
+}
+
+.login a {
+  margin-left: 5px;
+}
